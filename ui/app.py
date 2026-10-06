@@ -32,10 +32,10 @@ st.markdown("""
     .stAppDeployButton {display: none !important;}
     [data-testid="stAppDeployButton"] {display: none !important;}
     
-    /* Hide Streamlit Cloud Top Right Toolbar (Share, Star, Edit) */
-    [data-testid="stToolbar"] {display: none !important;}
-    [data-testid="stDecoration"] {display: none !important;}
+    /* Hide Streamlit Cloud Top Right Toolbar (Share, Star, Edit) carefully */
+    [data-testid="stToolbarActions"] {display: none !important;}
     .viewerBadge_container__1QSob {display: none !important;}
+    
     /* Ensure the native sidebar toggle remains fully visible */
     [data-testid="collapsedControl"],
     [data-testid="stSidebarCollapsedControl"] {
