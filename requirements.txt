@@ -1,0 +1,10 @@
+streamlit
+pandas
+langchain
+langchain-groq
+langchain-community
+groq
+chromadb
+sentence-transformers
+python-dotenv
+pysqlite3-binary
