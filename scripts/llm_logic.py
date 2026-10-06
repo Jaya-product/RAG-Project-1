@@ -41,9 +41,9 @@ def generate_response(query: str, document_id: str = None) -> str:
         query=query
     )
     
-    # 3. Initialize LLM using a highly optimized fast model
+    # 3. Initialize LLM using the user's requested model
     llm = ChatGroq(
-        model_name="llama3-8b-8192",
+        model_name="openai/gpt-oss-120b",
         temperature=0.0
     )
     
